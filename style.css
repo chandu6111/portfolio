@@ -1,0 +1,371 @@
+body{
+	margin: 0px;
+	padding: 0px;
+  width:100%;
+	background: #f8efd4;
+	font-family: 'Ubuntu', sans-serif;
+}
+.nav_ele{
+color:#edc988;
+
+text-decoration: none;
+float: left;
+padding-right: 30px;
+}
+nav{
+	background: #de4463;
+ background-size: cover;
+ background-repeat: no-repeat;
+ padding: 50px;
+}
+#home img{
+	border: 4px solid transparent;
+  background: #f8efd4;
+	width: 180px;
+	height: auto;
+	/*margin-top: 100px;
+	margin-bottom: 30px;*/
+  padding-top:150px;
+  padding-bottom:20px;
+}
+#home h1{
+	color: #821752;
+}
+#home{
+  height:100vh;
+}
+#about{
+	background-image:linear-gradient(to right,violet,pink);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 50px 80px;
+	height: 80vh;
+}
+#para_about{
+	float: right;
+	margin-left: 102px;
+	justify-content: space-between;
+	word-spacing: 1.5px;
+	line-height: 40px;
+	font-size: 16px;
+	font-weight:600 ;
+}
+#about h1,#edu h1,#skills h1,#exp h1,#hobbies h1,#contact h1{
+	color: #821752;
+	font-size: 36px;
+}
+.edu_img,#hobbies img,#contact img{
+		background: #f8efd4;
+		 mix-blend-mode: darken;
+}
+#edu_text{
+	padding: 5px;
+padding-left:40px;
+justify-content: space-between;
+	word-spacing: 1.5px;
+	line-height: 20px;
+	font-size: 16px;
+	color:#de4463 ;
+	font-weight: 600;
+}
+#edu_text table{
+  border-collapse: separate;
+  border-spacing: 50px 0;
+}
+
+#edu_text td {
+  padding: 10px 0;
+}
+#skills{
+	background-image: url("assets/imgs/skills.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 125vh;
+}
+#skills h1{
+	padding-top: 60px;
+	padding-left: 40px;
+}
+#skills h2{
+	padding-left: 40px;
+	color: #ffffff;
+}
+#skills ul{
+	color: #132743;
+	font-size: 16px;
+	font-weight: 600;
+	border-left: 3px solid #de4463;
+	margin-left: 70px;
+}
+#skills li{
+	margin-left: -30px;
+}
+#exp{
+	background-image: linear-gradient(to right,rgba(128, 128, 128, 0.007),white);
+	filter:brightness(65%);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 150vh;
+}
+#exp h2{
+		padding-left: 40px;
+		color: #07689f;
+}
+.list1_exp{
+	margin-left: 100px;
+	font-weight: 900;
+}
+.list1_org{
+	color: red;
+		margin-left: 100px;
+			font-weight: 800;
+			list-style-type: none;
+}
+.list2_pos{
+	margin-left: 69px;
+	font-weight: 900;
+}
+.list2_club{
+	color: red;
+		margin-left: 69px;
+			font-weight: 800;
+			list-style-type: none;
+}
+.list3_inte{
+	margin-left: 120px;
+	font-weight: 900;
+}
+.list3_com{
+	color: red;
+		margin-left: 120px;
+			font-weight: 800;
+			list-style-type: none;
+}
+.ceo{
+	margin-left: 80px;
+	font-weight: 900;
+}
+.estab{
+	color: red;
+		margin-left: 80px;
+			font-weight: 800;
+			list-style-type: none;
+}
+#hobbies table{
+	margin-top: 20px;
+  padding-left:40px;
+}
+#hobbies h3{
+	padding-left: 30px;
+	justify-content: space-between;
+	color:#de4463;
+	font-weight: 900;
+}
+#hobbies{
+	/*background: url("C:/Users/damar/OneDrive/Desktop/portfolio/assets/imgs/hobbies.jpg");*/
+	background: #EFD319;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 150vh;
+	padding-top: 20px;
+}
+#contact{
+	background: #2ec1ac;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 150vh;
+	margin-top: -30px;
+	padding-top: 10px;
+}
+#contact table{
+	margin-top: 30px;
+}
+#contact td{
+	padding-left: 40px;
+	padding-bottom: 40px;
+}
+#contact a{
+	text-decoration: none;
+	color: #edc988;
+}
+@media(min-width: 320px) and (max-width: 374px){
+  body{
+    min-width:700px;
+  }
+  nav{
+    font-size:18px;
+  }
+  #home{
+    height:130vh;
+  }
+  #about{
+    height:300vh;
+    background-size:cover;
+  }
+  #about img{
+    width:380px;
+    height:auto;
+  }
+  #para_about{
+    margin-left:40px;
+  }
+  #skills{
+    height:220vh;
+  }
+  #exp{
+    height:270vh;
+  }
+  #hobbies{
+    height:250vh;
+  }
+  #contact{
+    height:100%;
+  }
+}
+@media(min-width:375px) and (max-width:424px){
+body{
+  width:1000px;
+}
+#about{
+  height:100vh;
+}
+#about img{
+  width:300px;
+  height:auto;
+}
+#skills{
+  height:120vh;
+}
+#exp{
+  height:150vh;
+}
+#hobbies{
+  height:130vh;
+}
+#contact{
+  height:150vh;
+}
+}
+@media(min-width:425px) and (max-width:767px){
+  body{
+width:1000px;
+  }
+  #home{
+    height:120vh;
+  }
+  #about{
+    height:140vh;
+  }
+  #about img{
+    width:300px;
+    height:auto;
+  }
+  #skills{
+    height:190vh;
+  }
+  #exp{
+    height:220vh;
+  }
+  #hobbies{
+    height:200vh;
+  }
+  #contact{
+    height:180vh;
+  }
+}
+@media(min-width: 768px) and (max-width: 1023px){
+  #about{
+    height:160vh;
+  }
+  #about img{
+    margin-top:-200px;
+    width:250px;
+    height:auto;
+  }
+  #para_about{
+    margin-left:40px;
+  }
+  #skills{
+    height:200vh;
+  }
+  #exp{
+    height:250vh;
+  }
+  #hobbies{
+    height:200vh;
+  }
+  #contact{
+    height:170vh;
+  }
+}
+@media(min-width: 1024px) and (max-width: 1439px){
+#about{
+  height:80vh;
+}
+#about img{
+  width:300px;
+  height:auto;
+}
+#skills{
+  height:150vh;
+}
+#exp{
+  height:170vh;
+}
+#hobbies{
+  height:160vh;
+}
+#contact{
+  height:180vh;
+}
+}
+@media(min-width: 1440px) and (max-width: 2559px){
+  #about{
+    height:110vh;
+  }
+  #about img{
+    width:300px;
+    height:auto;
+  }
+  #skills{
+    height:150vh;
+  }
+  #exp{
+    height:200vh;
+  }
+  #hobbies{
+    height:180vh;
+  }
+}
+@media(min-width:2560px){
+  #hobbies{
+    height:150vh;
+  }
+  #hobbies h1,#about h1,#exp h1,#skills h1,#contact h1,#edu h1{
+    font-size:48px;
+  }
+  #hobbies h3{
+    font-size:30px;
+  }
+  #hobbies img{
+    width:200px;
+    height:auto;
+  }
+  p,li{
+    font-size:30px;
+  }
+  h2{
+    font-size:36px;
+  }
+  nav{
+    font-size:30px;
+  }
+  #home{
+    font-size:40px;
+    height:80vh;
+  }
+  #para_about{
+    font-size:30px;
+  }
+}
